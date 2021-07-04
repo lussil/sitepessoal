@@ -4,10 +4,26 @@
     box-sizing: border-box;
 }
 
+.linha2{
+  margin: 20px auto;
+}
+
+.sessao::after{
+  content: "";
+  width: 960px;
+  height: 2px;
+  background-color: black;
+  display: block;
+  margin: 10px auto;
+  }
+
+.sessao{
+text-align: center;
+margin: 68px 0 24px 0;
+}
+
+
 /* HEADER - MENU */
-
-
-
 nav ul li{
     margin: 10px; 
 }
@@ -15,17 +31,15 @@ header nav ul li a{
     font-size: 18px;
     transition: 0.2s;   
 }
-
 #colorLink:hover{
     color: #A4161A;
     align-self: center;
 }
-
-
-
 /* --------inicio----------*/
 
-#inicio{
+
+
+.inicio , .conteiner{
   max-width: 960px;
   background-color: #A4161A ;
   margin: 0 auto; 
@@ -34,18 +48,15 @@ header nav ul li a{
   margin-bottom: 24px;
   margin-top: 48px;
 }
-
 .infoInicio{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   }
-
 /* -------parte olá ---- */
 .inicioPerfil {
 	max-width: 460px;
 	margin: 20px;
-	
 }
 .inicioPerfil h2{
     font-size: 18px;
@@ -62,8 +73,6 @@ header nav ul li a{
 .inicioPerfil h2 {
   font-size: 28px;
 }
-
-
 .infoInicio a{
   font-size: 18px;
   margin: 5px;
@@ -117,3 +126,20 @@ button {
 button:hover, a:hover {
   opacity: 0.7;
 }
+/* Esperiencias e INteresses */
+
+
+
+.sobre_geral {
+  display: flex;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.sobre_geral div{
+  max-width: 390px;
+  font-size: 14px;
+  color:#F5F3F4;
+}
+
