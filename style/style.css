@@ -22,7 +22,6 @@ text-align: center;
 margin: 68px 0 24px 0;
 }
 
-
 /* HEADER - MENU */
 nav ul li{
     margin: 10px; 
@@ -36,9 +35,6 @@ header nav ul li a{
     align-self: center;
 }
 /* --------inicio----------*/
-
-
-
 .inicio , .conteiner{
   max-width: 960px;
   background-color: #A4161A ;
@@ -52,6 +48,7 @@ header nav ul li a{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-items: center;
   }
 /* -------parte olá ---- */
 .inicioPerfil {
@@ -135,6 +132,8 @@ button:hover, a:hover {
   max-width: 960px;
   margin: 0 auto;
   justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .sobre_geral div{
@@ -142,4 +141,23 @@ button:hover, a:hover {
   font-size: 14px;
   color:#F5F3F4;
 }
+.sobre_geral .interesses img{
+  max-width: 100px;
+  margin: 10px;
+}
+/* -------Formação------- */
 
+.formacao{
+  color: #F5F3F4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.formacao .escola{
+  max-width: 330px;
+}
+
+.formacao .cursoCertificado{
+  max-width: 330px;
+}
