@@ -161,3 +161,32 @@ button:hover, a:hover {
 .formacao .cursoCertificado{
   max-width: 330px;
 }
+
+
+ul li {
+  list-style: none;
+}
+.linhareta{
+  background-color: white;
+  height: auto;
+  width: 2px;
+}
+
+@media (max-width: 500px) {
+  
+  .linhareta{
+    background-color: white;
+    height: 2px;
+    width: 200px;
+  }
+}
+
+.portifolio {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.portifolio img{
+  max-width: 260px;
+
+}
